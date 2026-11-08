@@ -1,0 +1,14 @@
+interface:
+  display_name: SiteMatch — Similar Websites Expert
+  short_description: Find verified website alternatives by function and personal fit
+  default_prompt: Use $sitematch to find verified alternatives to this website and
+    explain their similarities and differences.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
